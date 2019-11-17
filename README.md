@@ -15,8 +15,8 @@
 
 ## 项目文档
 
-- 文档地址：[https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
-- 备用地址：[https://macrozheng.gitee.io/mall-learning](https://macrozheng.gitee.io/mall-learning)
+- 文档地址：[http://www.macrozheng.com](http://www.macrozheng.com)
+- 备用地址：[https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
 
 ## 项目介绍
 
@@ -28,7 +28,7 @@
 
 前端项目`mall-admin-web`地址：https://github.com/macrozheng/mall-admin-web
 
-项目演示地址： [http://39.98.190.128/index.html](http://39.98.190.128/index.html)  
+项目演示地址： [http://www.macrozheng.com/admin/index.html](http://www.macrozheng.com/admin/index.html)  
 
 ![后台管理系统功能演示.gif](/document/resource/mall-admin.gif)
 
@@ -36,7 +36,7 @@
 
 前端项目`mall-app-web`地址：敬请期待......
 
-项目演示地址：[http://39.98.190.128/mall-app/mainpage.html](http://39.98.190.128/mall-app/mainpage.html)
+项目演示地址：[http://www.macrozheng.com/app/index.html](http://www.macrozheng.com/app/index.html)
 
 ![前台商城系统功能演示.gif](/document/resource/mall-app.gif)
 
@@ -46,6 +46,7 @@
 mall
 ├── mall-common -- 工具类及通用代码
 ├── mall-mbg -- MyBatisGenerator生成的数据库操作代码
+├── mall-security -- SpringSecurity封装公用模块
 ├── mall-admin -- 后台商城管理系统接口
 ├── mall-search -- 基于Elasticsearch的商品搜索系统
 ├── mall-portal -- 前台商城系统接口
@@ -58,8 +59,8 @@ mall
 
 | 技术                 | 说明                | 官网                                                         |
 | -------------------- | ------------------- | ------------------------------------------------------------ |
-| Spring Boot          | 容器+MVC框架        | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) |
-| Spring Security      | 认证和授权框架      | [https://spring.io/projects/spring-security](https://spring.io/projects/spring-security) |
+| SpringBoot           | 容器+MVC框架        | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) |
+| SpringSecurity       | 认证和授权框架      | [https://spring.io/projects/spring-security](https://spring.io/projects/spring-security) |
 | MyBatis              | ORM框架             | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) |
 | MyBatisGenerator     | 数据层代码生成      | [http://www.mybatis.org/generator/index.html](http://www.mybatis.org/generator/index.html) |
 | PageHelper           | MyBatis物理分页插件 | [http://git.oschina.net/free/Mybatis_PageHelper](http://git.oschina.net/free/Mybatis_PageHelper) |
@@ -147,7 +148,7 @@ mall
 | Elasticsearch | 6.2.2  | https://www.elastic.co/downloads                             |
 | MongoDb       | 3.2    | https://www.mongodb.com/download-center                      |
 | RabbitMq      | 3.7.14 | http://www.rabbitmq.com/download.html                        |
-| nginx         | 1.10   | http://nginx.org/en/download.html                            |
+| Nginx         | 1.10   | http://nginx.org/en/download.html                            |
 
 ### 搭建步骤
 
